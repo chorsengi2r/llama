@@ -3,7 +3,7 @@
 
 PRESIGNED_URL="https://dobf1k6cxlizq.cloudfront.net/*?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kb2JmMWs2Y3hsaXpxLmNsb3VkZnJvbnQubmV0LyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2ODM4MzYwOTR9fX1dfQ__&Signature=sfjwp3CpRMw4lyQuvkPhESUo0Fj6sljlXGDoQqww8jQC5Sq9~wty6AnNjlJMtyBkcUzDrVVYvEgusMI9qevRb1MoFksF9kU~SNsytyd6H-IYvJBvgU0XlXV9eU5BJ~YIqJ2rqavLNHzrr1NkT~~7Smz2jltWnscOY1ypqX0~bAWY8ACgDosq37Iq-~UoTcuD-pdrte8kgX3dYdmHXpHe6FnfrMVqZppMW7PA1uLhspOZP4hbSjnv~YGSOYoLfNooYbNMfIU3OjC7ca3yEXuOLmj55d4BAyMlRRPoK~oGF88vyInqH-6dAGrliye~3RvXpY~QTb0bme~Wad6tDxuRkw__&Key-Pair-Id=K231VYXPC1TA1R"             # replace with presigned url from email
 MODEL_SIZE="7B,13B,30B,65B"  # edit this list with the model sizes you wish to download
-TARGET_FOLDER="weights"             # where all files should end up
+TARGET_FOLDER="weights2"             # where all files should end up
 
 declare -A N_SHARD_DICT
 
